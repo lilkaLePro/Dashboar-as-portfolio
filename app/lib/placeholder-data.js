@@ -12,9 +12,9 @@ const users = [
 const customers = [
   {
     id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
-    name: 'Delba de Oliveira',
+    name: 'Kaly Diallo',
     email: 'delba@oliveira.com',
-    image_url: '/customers/delba-de-oliveira.png',
+    image_url: '/customers/photo-profile.jpg',
   },
   {
     id: '3958dc9e-742f-4377-85e9-fec4b6a6442a',
@@ -24,9 +24,9 @@ const customers = [
   },
   {
     id: '3958dc9e-737f-4377-85e9-fec4b6a6442a',
-    name: 'Hector Simpson',
+    name: 'Kaly Diallo',
     email: 'hector@simpson.com',
-    image_url: '/customers/hector-simpson.png',
+    image_url: '/customers/photo-profile.jpg',
   },
   {
     id: '50ca3e18-62cd-11ee-8c99-0242ac120002',
