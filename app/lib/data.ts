@@ -229,3 +229,8 @@ export async function getUser(email: string) {
     throw new Error('Failed to fetch user.');
   }
 }
+
+export const revenueChartData = {
+  data : [100, 50 , 600 , 500 , 200, 3500, 140],
+  label : ["lun" , "mar" , "mer" , "jeu" , "ven", 'sam', 'dim'],
+}

@@ -6,6 +6,7 @@ import { CardsSkeleton,
 LatestInvoicesSkeleton, 
 RevenueChartSkeleton } from '@/app/ui/skeletons';
 import CardWrapper from '@/app/ui/dashboard/cards';
+import { BarChart } from '@/app/ui/dashboard/ChartRevenu';
  
 export default async function Page() {
     // const revenue = await fetchRevenue();
@@ -26,7 +27,7 @@ export default async function Page() {
       </div>
       <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
         <Suspense fallback={<RevenueChartSkeleton />}>
-          <RevenueChart />
+          <BarChart />          
         </Suspense>
         <Suspense fallback={<LatestInvoicesSkeleton />} >
           <LatestInvoices />
